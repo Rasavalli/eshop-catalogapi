@@ -59,10 +59,10 @@ namespace CatalogAPI.Controllers
         }
 
         //[Authorize(Roles ="admin")]
-        [HttpPost("image", Name ="AddProductwithImage")]
+        [HttpPost("", Name ="AddProduct")]
         [ProducesResponseType((int)HttpStatusCode.Created)]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
-        public ActionResult<CatalogItem> AddProductwithImage(CatalogItem item)
+        public ActionResult<CatalogItem> AddProduct(CatalogItem item)
         {
             TryValidateModel(item);
             if (ModelState.IsValid)
@@ -77,7 +77,7 @@ namespace CatalogAPI.Controllers
         }
 
         //[Authorize(Roles ="admin")]
-        [HttpPost("product", Name = "AddProduct")]
+        [HttpPost("product", Name = "AddProductwithImage")]
         public ActionResult<CatalogItem> AddProduct()
         {
             var imageName = SaveImageToCloudAsync(Request.Form.Files[0]).GetAwaiter().GetResult();
