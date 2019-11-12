@@ -59,7 +59,7 @@ namespace CatalogAPI.Controllers
         }
 
         //[Authorize(Roles ="admin")]
-        [HttpPost("", Name ="AddProductwithImage")]
+        [HttpPost("image", Name ="AddProductwithImage")]
         [ProducesResponseType((int)HttpStatusCode.Created)]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
         public ActionResult<CatalogItem> AddProductwithImage(CatalogItem item)
