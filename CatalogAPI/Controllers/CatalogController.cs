@@ -62,7 +62,7 @@ namespace CatalogAPI.Controllers
         [HttpPost("", Name ="AddProduct")]
         [ProducesResponseType((int)HttpStatusCode.Created)]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
-        public ActionResult<CatalogItem> AddProduct(CatalogItem item)
+        public ActionResult<CatalogItem> AddProductwithImage(CatalogItem item)
         {
             TryValidateModel(item);
             if (ModelState.IsValid)
