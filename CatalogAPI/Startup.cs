@@ -45,8 +45,8 @@ namespace CatalogAPI
                     Version="1.0",
                     Contact= new Swashbuckle.AspNetCore.Swagger.Contact
                     {
-                        Name="Mohamed Sakhib",
-                        Email="kmsakhib@outlook.com",
+                        Name="Rasavalli",
+                        Email="rasavallid@hexaware.com",
                         Url =""
                     }
                 });
