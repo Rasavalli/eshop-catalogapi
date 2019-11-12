@@ -25,4 +25,3 @@ E:\CatalogAPI\CatalogAPI\obj\Debug\netcoreapp2.2\CatalogAPI.AssemblyInfo.cs
 E:\CatalogAPI\CatalogAPI\obj\Debug\netcoreapp2.2\CatalogAPI.RazorTargetAssemblyInfo.cache
 E:\CatalogAPI\CatalogAPI\obj\Debug\netcoreapp2.2\CatalogAPI.dll
 E:\CatalogAPI\CatalogAPI\obj\Debug\netcoreapp2.2\CatalogAPI.pdb
-E:\CatalogAPI\CatalogAPI\obj\Debug\netcoreapp2.2\CatalogAPI.csprojAssemblyReference.cache
