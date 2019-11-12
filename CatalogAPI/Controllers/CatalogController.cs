@@ -77,7 +77,7 @@ namespace CatalogAPI.Controllers
         }
 
         //[Authorize(Roles ="admin")]
-        [HttpPost("product", Name = "AddProductwithImage")]
+        [HttpPost("product", Name ="AddProductwithImage")]
         public ActionResult<CatalogItem> AddProduct()
         {
             var imageName = SaveImageToCloudAsync(Request.Form.Files[0]).GetAwaiter().GetResult();
