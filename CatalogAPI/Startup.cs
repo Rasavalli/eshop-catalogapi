@@ -46,8 +46,7 @@ namespace CatalogAPI
                     Contact= new Swashbuckle.AspNetCore.Swagger.Contact
                     {
                         Name="Rasavalli",
-                        Email="rasavallid@hexaware.com",
-                        Url =""
+                        Email="rasavallid@hexaware.com"
                     }
                 });
             });
